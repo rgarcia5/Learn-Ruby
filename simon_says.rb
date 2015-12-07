@@ -1,3 +1,5 @@
+
+
 def echo(word)
  	word
 end
@@ -13,12 +15,10 @@ end
 def start_of_word (word,letter)
 	
 	word.split("").take(letter)
-
 end
 
 def first_word(words)
 	words.split(" ").first
-
 end
 
 def titleize (str)
@@ -33,12 +33,6 @@ def titleize (str)
 		
 		result << word 
 	end
-	
 	end
-
 result.join (" ")
-
 end
-
-puts titleize("war and peace")
-puts titleize("the bridge over the river kwai")
